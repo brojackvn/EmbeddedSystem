@@ -382,6 +382,16 @@
               <FilePath>.\STARTUP.A51</FilePath>
             </File>
             <File>
+              <FileName>bai1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>E:\Materials\IT\Embedded System\Lab\TH1\Exercises\bai1.c</FilePath>
+            </File>
+            <File>
+              <FileName>bai2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>E:\Materials\IT\Embedded System\Lab\TH1\Exercises\bai2.c</FilePath>
+            </File>
+            <File>
               <FileName>bai3.c</FileName>
               <FileType>1</FileType>
               <FilePath>E:\Materials\IT\Embedded System\Lab\TH1\Exercises\bai3.c</FilePath>
