@@ -45,8 +45,8 @@
             <NotGenerated>0</NotGenerated>
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
-          <OutputDirectory>.\Objects\bai2\</OutputDirectory>
-          <OutputName>bai2</OutputName>
+          <OutputDirectory>.\Objects\bai4\</OutputDirectory>
+          <OutputName>bai4</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
@@ -382,9 +382,9 @@
               <FilePath>.\STARTUP.A51</FilePath>
             </File>
             <File>
-              <FileName>bai1.c</FileName>
+              <FileName>bai4.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Exercises\bai1.c</FilePath>
+              <FilePath>.\Exercises\bai4.c</FilePath>
             </File>
           </Files>
         </Group>
