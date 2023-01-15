@@ -1,3 +1,5 @@
+//Ta thực hiện loopback để ngay khi một dữ liệu được nhập vào receive thì nó sẽ được cho vào hàng đợi delay rồi hiển thị từng kí tự lên lcd
+
 #include<at89x52.h>	
 #include<intrins.h>
 #include "string.h"

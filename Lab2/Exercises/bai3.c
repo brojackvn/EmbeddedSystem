@@ -1,3 +1,7 @@
+//Tan so voi F91A la 261.08Hz ; F9DB la 293.13Hz; FA87 là 329.14Hz
+//Ta khong the tao tan so chinh xac 261.63 vi ta khong the tao duoc mot so thap phan tu hexa (63773.7340901)
+//Truong do cua not nhac duoc quyet dinh boi thong so duration
+
 #include<at89x52.h>	
 #include<intrins.h>
 #define BUZZER P1_5
