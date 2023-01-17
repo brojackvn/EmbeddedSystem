@@ -1,6 +1,6 @@
-//Tan so voi F91A la 261.08Hz ; F9DB la 293.13Hz; FA87 là 329.14Hz
+//Tan so voi F91A (Do) la 261.08Hz ; F9DB (Re) la 293.13Hz; FA87 (Mi) là 329.14Hz
 //Ta khong the tao tan so chinh xac 261.63 vi ta khong the tao duoc mot so thap phan tu hexa (63773.7340901)
-//Truong do cua not nhac duoc quyet dinh boi thong so duration
+//Truong do cua not nhac duoc quyet dinh boi tham so durations (Timer1 se xac dinh chu ki bo dinh thoi, thoi gian delay chinh xac, o day: 1 chu ki bo dinh thoi 50ms). Vi du: duration=20 tuc thoi gian keo dai la 1s
 
 #include<at89x52.h>	
 #include<intrins.h>
@@ -25,7 +25,7 @@ void InitTimers()
 	TMOD = 0x11; 
 	TH0 = TH0_val;	 
 	TL0 = TL0_val; 
-	// 65536 - 50000/1 = 15536 = (3CB0) (1: chu ki bo dinh thoi)
+	// 65536 - 50000/1 = 15536(DEC)= (3CB0) (HEX) (1: chu ki bo dinh thoi)
 	TH1 = 0x3C;	 // 50 ms
 	TL1 = 0xB0; 
 	EA = 1;			 
