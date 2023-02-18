@@ -1,0 +1,10 @@
+16:02:08 **** Build of configuration Debug for project HelloSTM32 ****
+make -j12 all 
+arm-none-eabi-size   HelloSTM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30896	     24	   3336	  34256	   85d0	HelloSTM32.elf
+Finished building: default.size.stdout
+ 
+
+16:02:09 Build Finished. 0 errors, 0 warnings. (took 359ms)
+

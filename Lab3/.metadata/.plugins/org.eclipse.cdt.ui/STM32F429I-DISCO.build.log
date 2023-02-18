@@ -1,0 +1,20 @@
+17:20:52 **** Incremental Build of configuration Debug for project STM32F429I-DISCO ****
+make -j12 all 
+arm-none-eabi-g++ "E:/System/TouchGFXProjects/RacingGame/TouchGFX/gui/src/screen1_screen/Screen1View.cpp" -mcpu=cortex-m4 -std=gnu++14 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F429xx -c -I../../Core/Inc -I../../Drivers/CMSIS/Include -I../../Drivers/BSP -I../../TouchGFX/target -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../TouchGFX/App -I../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../../TouchGFX/target/generated -I../../Middlewares/Third_Party/FreeRTOS/Source/include -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../Middlewares/ST/touchgfx/framework/include -I../../TouchGFX/generated/fonts/include -I../../TouchGFX/generated/gui_generated/include -I../../TouchGFX/generated/images/include -I../../TouchGFX/generated/texts/include -I../../TouchGFX/gui/include -I../../TouchGFX/generated/videos/include -Os -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -femit-class-debug-always -fstack-usage -MMD -MP -MF"Application/User/gui/Screen1View.d" -MT"Application/User/gui/Screen1View.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Application/User/gui/Screen1View.o"
+arm-none-eabi-g++ -o "STM32F429I-DISCO.elf" @"objects.list"  -l:libtouchgfx-float-abi-hard.a -mcpu=cortex-m4 -T"E:\System\TouchGFXProjects\RacingGame\STM32CubeIDE\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F429I-DISCO.map" -Wl,--gc-sections -static -LC:/git/STM32F429-dk/untouched/rev_D/stm32f429i_disco_rev_e01/STM32F429I_DISCO_REV_E01/Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc -LC:/git/STM32F429-dk/rev_E01/stm32f429i_disco_rev_e01/STM32F429I_DISCO_REV_E01/Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc -LE:/System/TouchGFXProjects/RacingGame/Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32F429I-DISCO.elf
+ 
+arm-none-eabi-size   STM32F429I-DISCO.elf 
+arm-none-eabi-objdump -h -S  STM32F429I-DISCO.elf  > "STM32F429I-DISCO.list"
+arm-none-eabi-objcopy  -O ihex  STM32F429I-DISCO.elf  "STM32F429I-DISCO.hex"
+   text	   data	    bss	    dec	    hex	filename
+ 278238	    384	 540772	 819394	  c80c2	STM32F429I-DISCO.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F429I-DISCO.hex
+ 
+Finished building: STM32F429I-DISCO.list
+ 
+
+17:20:55 Build Finished. 0 errors, 0 warnings. (took 3s.188ms)
+
